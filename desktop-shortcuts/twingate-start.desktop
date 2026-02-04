@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Twingate Start
+Comment=Start Twingate VPN
+Exec=pkexec systemctl start twingate
+Icon=network-vpn
+Terminal=false
+Categories=Network;

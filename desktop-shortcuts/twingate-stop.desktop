@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Twingate Stop
+Comment=Stop Twingate VPN
+Exec=pkexec systemctl stop twingate
+Icon=network-vpn-disconnected
+Terminal=false
+Categories=Network;
