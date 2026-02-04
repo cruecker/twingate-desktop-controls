@@ -10,6 +10,10 @@ Desktop shortcuts and a Cinnamon panel applet to start, stop, and monitor [Twing
 
 A panel applet that shows the Twingate connection status at a glance:
 
+| Online (Green) | Offline (Red) |
+|:-:|:-:|
+| ![Applet Online](screenshots/applet-online.png) | ![Applet Offline](screenshots/applet-offline.png) |
+
 - **Green** = Online (connected through Twingate)
 - **Red** = Offline (direct local network access)
 - Click to open a menu with **Start** / **Stop** controls
@@ -18,6 +22,8 @@ A panel applet that shows the Twingate connection status at a glance:
 ### Desktop Shortcuts
 
 Two `.desktop` shortcuts for one-click start/stop:
+
+![Desktop Shortcuts](screenshots/desktop-shortcuts.png)
 
 - **Twingate Start** - Starts the Twingate service (prompts for password via `pkexec`)
 - **Twingate Stop** - Stops the Twingate service
